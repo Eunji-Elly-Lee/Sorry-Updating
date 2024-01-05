@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   width: 100%;
-  background-color: #A0C8C7;
 }
 .App p {
   font-size: 22px;
@@ -10,5 +9,6 @@
   padding: 15px;
 }
 .App img {
-  width: 95%;
+  max-width: 100vw;
+  max-height: calc(100vh - 65px);
 }
